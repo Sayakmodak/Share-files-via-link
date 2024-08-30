@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebf3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-bar {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.upload-container {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 20px 20px #0000002e;
+    border-radius: 20px;
+}
+
+.drop-zone {
+    border: 2px dashed #a2e0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 250px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.drop-zone i {
+    font-size: 50px;
+    margin: 40px;
+}
+
+#input {
+    display: none;
+}
+
+.drop-zone p {
+    font-size: 20px;
+}
+
+.drop-zone span {
+    color: blue;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #b0c9ec;
+    border: 2px dashed #85d8f1;
+}
+
+#linkedPara {
+    margin-top: 20px;
+}
+
+.copy-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #85d8f1;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#copyInput {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
